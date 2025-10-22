@@ -3,14 +3,14 @@
 SkimMed is an AI-powered application for parsing and analyzing **medical documents**.  
 It extracts structured information from uploaded medical PDFs, splits them into manageable chunks, and allows users to query them in natural language using a Hugging Face-hosted LLM.
 
-## ✨ Features
-- 📄 **Upload PDF documents** for instant processing.
-- ✂️ **Smart text chunking** for better context handling.
-- 🤗 **Hugging Face model integration** for decision-making.
-- 🖱️ Click-to-view reasoning (keeps the UI clean).
-- 🌐 Built with **Gradio** for a simple, interactive interface.
+## Features
+- **Upload PDF documents** for instant processing.
+- **Smart text chunking** for better context handling.
+- **Hugging Face model integration** for decision-making.
+- Click-to-view reasoning (keeps the UI clean).
+- Built with **Gradio** for a simple, interactive interface.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Python**
 - **Gradio** – UI framework
 - **PyMuPDF (`fitz`)** – PDF text extraction
@@ -20,15 +20,15 @@ It extracts structured information from uploaded medical PDFs, splits them into 
 - **python-dotenv** – environment variable handling
 
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the repo
+### 1️) Clone the repo
 ```bash
 git clone https://github.com/your-username/SkimMed.git
 cd SkimMed
 ```
 
-### 3️⃣ Add your Hugging Face API token
+### 2)  Add your Hugging Face API token
 Create a .env file:
 
 ```env
